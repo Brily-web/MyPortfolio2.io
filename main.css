@@ -431,10 +431,5 @@
         }
       }
       
-    .strip {
-      width: 4px;
-      height: 28px;
-      background-color: #635a84;
-      animation: blink .6s linear infinite alternate;
-    }
+
 
