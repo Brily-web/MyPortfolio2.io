@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" >
 
 <head>
   <meta charset="utf-8" />
@@ -27,12 +27,16 @@
       background-color: #857da5;
       animation: blink 1s steps(1) infinite ;
     }
+    .typing{
+      animation: none;
+    }
 
     .changebg {
       background-color: #fef4d5;
       color: #31363f;
-      font-weight: 600;
     }
+
+
     @keyframes blink{
       0%{
         opacity: 1;
@@ -41,7 +45,7 @@
         opacity: 0;
       }
       100%{
-        opacity: 0;
+        opacity: 1;
       }
     } 
     @-webkit-keyframes  blink{
@@ -52,14 +56,14 @@
         opacity: 0;
       }
       100%{
-        opacity: 0;
+        opacity: 1;
       }
     }
 
   </style>
 </head>
 
-<body>
+<body data-bs-theme="dark" style="transition: ease 2s;">
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg p-3 mx-5 mt-3 rounded-3" style="background-color: #31363f">
     <div class="container-fluid">
